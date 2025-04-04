@@ -1,0 +1,12 @@
+.last-user-login-wrapper{
+    padding: 10px;
+    border: 2px dashed #444;
+    display: block;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+@media (min-width:500px){
+    .last-user-login-wrapper{
+        width: 50%;
+    }
+}
