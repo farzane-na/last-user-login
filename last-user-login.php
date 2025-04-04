@@ -1,3 +1,4 @@
+<?php
 /*
  * Plugin Name:       last user login
  * Plugin URI:        https://github.com/farzane-na/last-user-login
@@ -13,3 +14,15 @@
  * Text Domain:       last-user-login
  * Domain Path:       /languages
  */
+
+
+  define("LAST_USER_LOGIN_PLUGIN_DIR_PATH",plugin_dir_path( __FILE__ ));
+  define("LAST_USER_LOGIN_PLUGIN_DIR_URL",plugin_dir_url( __FILE__ ));
+  define("LAST_USER_LOGIN_PLUGIN_VERSION","1.0.0");
+ 
+ 
+  if ( !defined( 'ABSPATH' ) ) {
+     exit;
+ };
+ 
+ require_once LAST_USER_LOGIN_PLUGIN_DIR_PATH."includes/plugin.php";
